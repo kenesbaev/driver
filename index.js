@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const db = require('./database');
+const db = require('../../../Desktop/driiver/backend/database');
 
 const app = express();
 const port = 3000;
